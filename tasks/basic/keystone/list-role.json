@@ -1,0 +1,20 @@
+{
+  "KeystoneTest.list_role": [
+    {
+      "runner": {
+        "type": "constant",
+        "concurrency": 1,
+        "times": 5
+      },
+      "args": {
+        "detailed": true
+      },
+      "context": {
+        "users": {
+          "tenants": 1,
+          "users_per_tenant": 1
+        }
+      }
+    }
+  ]
+}

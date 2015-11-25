@@ -1,0 +1,13 @@
+{
+    "type": "ExistingCloud",
+    "auth_url": "http://10.5.2.63:35357/v2.0/",
+    "region_name": "RegionOne",
+    "endpoint_type": "public",
+    "admin": {
+        "username": "admin",
+        "password": "openstack",
+        "tenant_name": "admin"
+    },
+    "https_insecure": false,
+    "https_cacert": ""
+}

@@ -1,0 +1,20 @@
+{
+  "NeutronTest.list_secgroup_rule": [
+    {
+      "runner": {
+        "type": "constant",
+        "concurrency": 2,
+        "times": 5
+      },
+      "args": {
+        "detailed": true
+      },
+      "context": {
+        "users": {
+          "tenants": 1,
+          "users_per_tenant": 1
+        }
+      }
+    }
+  ]
+}
